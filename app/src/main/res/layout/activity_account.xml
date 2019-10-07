@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAccount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/base_layout_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/user_account"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/rndm_text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="@dimen/big_text_size"
+            tools:text="@string/text1" />
+
+        <TextView
+            android:id="@+id/rndm_text_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/big_text_size"
+            tools:text="@string/text2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_for_go_to_area"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/url_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:hint="@string/link_to_activity"
+                android:textSize="@dimen/standard_text_size"
+                android:imeOptions="flagNoExtractUi"/>
+
+            <Button
+                android:id="@+id/go_to_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/go_to_activity_on_link"
+                android:textSize="@dimen/standard_text_size" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/goto_next_activity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/big_margin"
+            android:text="@string/go_to_catalog" />
+
+    </LinearLayout>
+</ScrollView>

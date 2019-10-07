@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ActivitiesApp</string>
+    <string name="go_to_activity_on_link">Go to activity on link</string>
+    <string name="link_to_activity">Enter link to another activity</string>
+    <string name="text1">Random text 1</string>
+    <string name="text2">Random text 2</string>
+    <string name="search">Search</string>
+    <string name="catalog">Catalog</string>
+    <string name="map">Map</string>
+    <string name="user_account">User account</string>
+    <string name="go_to_catalog">Go to catalog</string>
+    <string name="go_to_map">Go to map</string>
+    <string name="go_to_search">Go to search</string>
+    <string name="go_to_account">Go to account</string>
+</resources>
